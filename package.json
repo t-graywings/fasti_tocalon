@@ -1,0 +1,24 @@
+{
+  "name": "fasti_tocalon",
+  "version": "0.0.1",
+  "description": "fasti_tocalon is container build system",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/t-graywings/fasti_tocalon.git"
+  },
+  "keywords": [
+    "docker",
+    "container",
+    "express"
+  ],
+  "author": "Taira Terashima <taira.815.terashima@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/t-graywings/fasti_tocalon/issues"
+  },
+  "homepage": "https://github.com/t-graywings/fasti_tocalon#readme"
+}
