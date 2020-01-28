@@ -4,8 +4,9 @@
   "description": "fasti_tocalon is container build system",
   "main": "index.js",
   "scripts": {
-    "dev": "node dist/server/index.js",
-    "tsc": "tsc"
+    "dev": "tsc && node dist/server/index.js",
+    "tsc": "tsc",
+    "build": "webpack --colors --config ./webpack.config.js"
   },
   "repository": {
     "type": "git",
@@ -23,10 +24,10 @@
   },
   "homepage": "https://github.com/t-graywings/fasti_tocalon#readme",
   "devDependencies": {
-    "awesome-typescript-loader": "^5.2.1",
     "db-migrate": "^0.11.6",
     "db-migrate-sqlite3": "^0.4.0",
     "source-map-loader": "^0.2.4",
+    "ts-loader": "^6.2.1",
     "typescript": "^3.7.5",
     "webpack": "^4.41.5",
     "webpack-cli": "^3.3.10"
