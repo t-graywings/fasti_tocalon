@@ -4,7 +4,8 @@
   "description": "fasti_tocalon is container build system",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "node dist/server/index.js",
+    "tsc": "tsc"
   },
   "repository": {
     "type": "git",
