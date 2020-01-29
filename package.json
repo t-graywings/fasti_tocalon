@@ -26,6 +26,8 @@
   "devDependencies": {
     "db-migrate": "^0.11.6",
     "db-migrate-sqlite3": "^0.4.0",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2",
     "source-map-loader": "^0.2.4",
     "ts-loader": "^6.2.1",
     "typescript": "^3.7.5",
