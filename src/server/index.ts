@@ -12,6 +12,12 @@ const jsFilesOptions = {
   'dotfiles': 'ignore',
   'extensions': ['js'],
 };
-app.use('/js', express.static('dist/client', jsFilesOptions));
+app.use('/js', express.static('dist/client/js', jsFilesOptions));
+
+const cssFilesOptions = {
+  'dotfiles': 'ignore',
+  'extensions': ['css'],
+}
+app.use('css', express.static('dist/client/css', cssFilesOptions));
 
 app.listen(port, () => console.log(`Example app listening`));
