@@ -3,8 +3,8 @@ const app = express();
 const port = 8080;
 
 const publicFilesOptions = {
-    'dotfiles': 'ignore',
-    'extensions': ['html'],
+  'dotfiles': 'ignore',
+  'extensions': ['html'],
 }
 app.use(express.static('public', publicFilesOptions));
 
