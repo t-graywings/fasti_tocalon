@@ -1,13 +1,14 @@
 {
     "compilerOptions": {
-        "outDir": "./dist/",
+        "outDir": "./dist/server",
         "sourceMap": true,
         "noImplicitAny": true,
-        "module": "commonjs",
-        "target": "es5",
-        "jsx": "react"
+        "module": "es6",
+        "target": "es2015",
+        "jsx": "react",
+        "moduleResolution": "node"
     },
     "include": [
-        "./src/**/*"
+        "./src/server/**/*"
     ]
 }
