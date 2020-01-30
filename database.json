@@ -1,6 +1,6 @@
 {
   "dev": {
-    "driver": "sqlite3",
+    "driver": "sqlite",
     "filename": "/etc/fasti/app.db"
   }
 }
