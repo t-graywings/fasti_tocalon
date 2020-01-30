@@ -1,6 +1,6 @@
 import * as Express from 'express';
 import api from './api/v1/routes';
-import * as methodOverride from 'method-override';
+
 const app = Express();
 const PORT = 8080;
 

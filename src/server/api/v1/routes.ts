@@ -16,7 +16,7 @@ router.get('/', (req: Express.Request, res: Express.Response, next: Express.Next
   )}
 );
 router.get('/module', moduleController.list);
-router.put('/module', moduleController.add);
+router.post('/module', moduleController.add);
 router.get('/module/:id', moduleController.detail);
 router.post('/module/:id', moduleController.update);
 router.delete('/module/:id', moduleController.delete);
