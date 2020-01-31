@@ -1,5 +1,10 @@
 @import 'reset.scss';
 
-div#app{
-  background-color: #000;
+header#header{
+    padding: 5px;
+    background-color: #8888FF;
+    font-size: 24px;
+    height: 80px;
+    width: 100%;
 }
+@import 'common/header.scss';
