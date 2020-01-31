@@ -7,12 +7,6 @@ const PORT = 8080;
 app.use(Express.json());
 app.use(Express.urlencoded({extended: true}));
 
-const publicFilesOptions = {
-  'dotfiles': 'ignore',
-  'extensions': ['html'],
-};
-app.use(Express.static('public', publicFilesOptions));
-
 const jsFilesOptions = {
   'dotfiles': 'ignore',
   'extensions': ['js'],
@@ -26,5 +20,11 @@ const cssFilesOptions = {
 app.use('/css', Express.static('dist/client/css', cssFilesOptions));
 
 app.use('/api/v1', api);
+
+const publicFilesOptions = {
+  'dotfiles': 'ignore',
+  'extensions': ['html'],
+};
+app.use('/*', Express.static('public', publicFilesOptions));
 
 app.listen(PORT, () => console.log('Starting server at "localhost:8080"'));
