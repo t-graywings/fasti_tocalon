@@ -25,6 +25,6 @@ const publicFilesOptions = {
   'dotfiles': 'ignore',
   'extensions': ['html'],
 };
-app.use('/*', Express.static('public', publicFilesOptions));
+app.use('/', Express.static('public', publicFilesOptions));
 
 app.listen(PORT, () => console.log('Starting server at "localhost:8080"'));
