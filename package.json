@@ -23,8 +23,6 @@
   },
   "homepage": "https://github.com/t-graywings/fasti_tocalon#readme",
   "devDependencies": {
-    "db-migrate": "^0.11.6",
-    "db-migrate-sqlite3": "^0.4.0",
     "gulp": "^4.0.2",
     "gulp-sass": "^4.0.2",
     "source-map-loader": "^0.2.4",
