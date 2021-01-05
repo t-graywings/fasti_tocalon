@@ -24,7 +24,7 @@
   "homepage": "https://github.com/t-graywings/fasti_tocalon#readme",
   "devDependencies": {
     "@types/axios": "^0.14.0",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "db-migrate": "^0.11.6",
     "db-migrate-sqlite3": "^0.4.0",
     "gulp": "^4.0.2",
